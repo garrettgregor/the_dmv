@@ -1,7 +1,4 @@
 class VehicleFactory
-  def initialize
-
-  end
 
   def create_vehicles(registrations)
     created_vehicles = registrations.map do |car|
@@ -16,4 +13,5 @@ class VehicleFactory
       )
     end
   end
+  
 end
